@@ -1,0 +1,5 @@
+package eCommerceProject.core.concretes;
+
+public class UserValidationManager {
+
+}

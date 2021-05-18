@@ -1,0 +1,5 @@
+package eCommerceProject.bussiness.abstracts;
+
+public interface UserService {
+
+}

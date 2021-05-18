@@ -1,0 +1,5 @@
+package eCommerceProje.entities.concretes;
+
+public class User {
+
+}

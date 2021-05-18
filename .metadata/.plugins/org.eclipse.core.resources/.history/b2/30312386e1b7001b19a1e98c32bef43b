@@ -1,0 +1,46 @@
+package eCommerceProject.bussiness.concretes;
+
+import org.graalvm.compiler.phases.VerifyPhase.VerificationError;
+
+import eCommerceProject.bussiness.abstracts.AuthService;
+import eCommerceProject.bussiness.abstracts.UserService;
+import eCommerceProject.core.abstracts.UserValidationService;
+
+public class AuthManager implements AuthService {
+	
+	UserService userService;
+	UserValidationService userValidationService;
+	void add(User user);
+
+	void update(User user);
+
+	void delete(User user);
+
+	User getById(int id);
+
+	User getByMail(String email);
+
+	User getByEmailAndPassword(String email, String password);
+
+	List<User> getAll(); verificationService;
+	
+	
+	public AuthManager() {
+		
+	}
+	
+
+	@Override
+	public void register(int id, String firstName, String lastname, String email, String password) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void login(String email, String password) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

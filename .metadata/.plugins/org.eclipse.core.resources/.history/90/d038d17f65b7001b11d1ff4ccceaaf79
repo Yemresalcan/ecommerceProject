@@ -1,0 +1,5 @@
+package eCommerceProje.dataAccess.abstracts;
+
+public interface UserDao {
+
+}

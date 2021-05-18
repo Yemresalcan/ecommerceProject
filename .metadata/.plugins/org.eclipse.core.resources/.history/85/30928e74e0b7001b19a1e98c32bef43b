@@ -1,0 +1,5 @@
+package eCommerceProject.bussiness.concretes;
+
+public class AuthManager {
+
+}

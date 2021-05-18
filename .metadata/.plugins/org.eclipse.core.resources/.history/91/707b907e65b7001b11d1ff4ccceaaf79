@@ -1,0 +1,5 @@
+package eCommerceProje.bussiness.abstracts;
+
+public interface AuthService {
+
+}
